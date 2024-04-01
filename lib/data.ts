@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pr1 from "@/public/pr1.png";
 import pr2 from "@/public/pr2.png";
-import pr3 from "@/public/pr3.png";
+import pr4 from "@/public/pr4.png";
 
 export const links = [
   {
@@ -39,20 +39,28 @@ export const projectsData = [
     link: "https://blog-app-0c7q.onrender.com/",
   },
   {
+    title: "Figma Store",
+    description:
+      "Built a responsive Ecom app with login, register and payment functionality",
+    tags: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Tailwind",
+      "Framer",
+      "Redux",
+      "Stripe",
+    ],
+    imageUrl: pr4,
+    link: "https://figmaecom.onrender.com/",
+  },
+  {
     title: "FitNGym",
     description:
       "Built a fully responsive webpage with react using typescript for type safety",
     tags: ["React", "TypeScript", "Tailwind", "Redux"],
     imageUrl: pr2,
     link: "https://fitngym-five.vercel.app/",
-  },
-  {
-    title: "Booking App",
-    description:
-      "Built a responsive booking app where user can book and places",
-    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Framer"],
-    imageUrl: pr3,
-    link: "https://airbmb-ten.vercel.app/",
   },
 ] as const;
 
