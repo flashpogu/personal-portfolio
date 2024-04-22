@@ -57,7 +57,7 @@ export const projectsData = [
   {
     title: "BookME",
     description:
-      "Built a Booking App with Sorting and Filter functionality, User Authentication and Authorization, Booking functionality, Both frontend and backend with Typescript for type safety",
+      "Built a fully func Booking App with Sorting and Filter functionality, Both frontend and backend with Typescript for type safety",
     tags: [
       "React",
       "TypeScript",
