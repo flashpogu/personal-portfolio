@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pr1 from "@/public/pr1.png";
-import pr2 from "@/public/pr2.png";
+import pr5 from "@/public/pr5.png";
 import pr4 from "@/public/pr4.png";
 
 export const links = [
@@ -55,12 +55,20 @@ export const projectsData = [
     link: "https://figmaecom.onrender.com/",
   },
   {
-    title: "FitNGym",
+    title: "BookME",
     description:
-      "Built a fully responsive webpage with react using typescript for type safety",
-    tags: ["React", "TypeScript", "Tailwind", "Redux"],
-    imageUrl: pr2,
-    link: "https://fitngym-five.vercel.app/",
+      "Built a Booking App with Sorting and Filter functionality, User Authentication and Authorization, Booking functionality, Both frontend and backend with Typescript for type safety",
+    tags: [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "React Query",
+      "Node",
+      "Express",
+      "MongoDB",
+    ],
+    imageUrl: pr5,
+    link: "https://bookme-f6pk.onrender.com/",
   },
 ] as const;
 
