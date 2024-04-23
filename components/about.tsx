@@ -18,36 +18,24 @@ export default function About() {
       {/* Section heading */}
       <h2 className="text-3xl font-medium capitalize mb-8">About me</h2>
       <p className="mb-3">
-        As I embark on my journey in{" "}
-        <span className="font-medium">web development</span>, I&apos;ve
-        dedicated myself to mastering fundamental technologies crucial for
-        today&apos;s digital landscape. Notably, I&apos;ve invested significant
-        effort into becoming proficient in{" "}
-        <span className="font-medium">React</span>, utilizing its capabilities
-        to design captivating and user-centric interfaces. For instance, in a
-        recent project,{" "}
-        <span className="italic">
-          I utilized React to develop an interactive blog application
-        </span>
-        , implementing features such as seamless navigation, dynamic content
-        rendering, and user authentication for an enriched reading experience.
-        Moreover, I&apos;m familiar with{" "}
-        <span className="font-medium">TypeScript</span>, leveraging its strong
-        typing system to enhance code readability and maintainability in my
-        projects.
+        Adept at crafting <span className="italic">user-centric</span>{" "}
+        interfaces that prioritize clarity and functionality. Skilled in
+        building complex applications with{" "}
+        <span className="font-medium">Redux Toolkit</span> for state management
+        and <span className="font-medium">React Query</span> for efficient data
+        fetching. My expertise encompasses designing aesthetically pleasing and
+        intuitive <span className="italic">user interfaces</span>{" "}
+        <span className="font-bold">(UI)</span>. I&apos;m always eager to{" "}
+        <span className="font-bold">learn</span> new technologies and expand my
+        skillset.
       </p>
       <p>
-        I am currenty looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer where{" "}
-        <span className="italic">
-          {" "}
-          I can continually enhance my knowledge and skills.
-        </span>{" "}
-        I am eager to deepen my understanding of cutting-edge{" "}
-        <span className="font-medium">technologies</span>, collaborate with
-        talented <span className="italic">individuals</span>, and embark on a
-        journey of professional development.
+        Seeking a <span className="font-medium">full-time</span> software
+        developer position to utilize my React expertise and collaborate with a
+        talented team. Passionate about staying ahead of the curve by learning
+        cutting-edge <span className="font-medium">technologies</span> like
+        <span className="italic">(mentioned below)</span> and contributing to
+        the company&apos;s success.
       </p>
     </motion.section>
   );
