@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import pr1 from "@/public/pr1.png";
 import pr5 from "@/public/pr5.png";
 import pr4 from "@/public/pr4.png";
+import pr2 from "@/public/pr2.png";
 
 export const links = [
   {
@@ -31,50 +32,51 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "BlogApp",
+    title: "Skin Disease Classifier",
     description:
-      "Built blog app using react as a frontend and node + express as a backend with google OAuth",
-    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Express"],
+      "Built a full-stack medical imaging system that classifies 7 skin diseases",
+    tags: ["Pytorch", "Transfer Learning (ResNet50)", "Modal Cloud"],
     imageUrl: pr1,
-    link: "https://blog-app-0c7q.onrender.com/",
+    link: "https://skin-disease-classifier-lemon.vercel.app/",
   },
   {
-    title: "Figma Store",
+    title: "Shortify URL shortner",
+    description:
+      "Built a scalable URL shortening system with caching using Redis for high performance.",
+    tags: [
+      "Next js",
+      "Node.js",
+      "Redis",
+      "Postgres",
+      "Traefik",
+      "Docker",
+    ],
+    imageUrl: pr2,
+    link: "https://shortify-omega-mocha.vercel.app/",
+  },
+  {
+    title: "Figma Ecommerce",
     description:
       "Built a responsive Ecom app with login, register and payment functionality",
     tags: [
       "React",
-      "Node.js",
-      "MongoDB",
-      "Tailwind",
-      "Framer",
-      "Redux",
-      "Stripe",
-    ],
-    imageUrl: pr4,
-    link: "https://figmaecom.onrender.com/",
-  },
-  {
-    title: "BookME",
-    description:
-      "Built a Booking App with Sorting & Filter func, All with Typescript for type safety",
-    tags: [
-      "React",
-      "TypeScript",
       "Tailwind",
       "React Query",
       "Node",
       "Express",
       "MongoDB",
     ],
-    imageUrl: pr5,
-    link: "https://bookme-f6pk.onrender.com/",
+    imageUrl: pr4,
+    link: "https://figma-ecom-tau.vercel.app/",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Python",
+  "Postgres",
+  "Pytorch",
+  "Docker",
+  "HTML/CSS",
   "JavaScript",
   "TypeScript",
   "React",
@@ -86,8 +88,6 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "React Query",
-  "Express",
-  "Python",
-  "Framer Motion",
-  "Jest",
+  "Express"
+  
 ] as const;

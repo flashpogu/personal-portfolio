@@ -8,35 +8,31 @@ export default function About() {
   const { ref } = useSectionInView("About");
   return (
     <motion.section
-      className="my-28 max-w-[45rem] text-center leading-8 scroll-mt-28"
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.175 }}
-      id="about"
-      ref={ref}
-    >
-      {/* Section heading */}
-      <h2 className="text-3xl font-medium capitalize mb-8">About me</h2>
-      <p className="mb-3">
-        Adept at crafting <span className="italic">user-centric</span>{" "}
-        interfaces that prioritize clarity and functionality. Skilled in
-        building complex applications with{" "}
-        <span className="font-medium">Redux Toolkit</span> for state management
-        and <span className="font-medium">React Query</span> for efficient data
-        fetching. My expertise encompasses designing aesthetically pleasing and
-        intuitive <span className="italic">user interfaces</span>{" "}
-        <span className="font-bold">(UI)</span>. I&apos;m always eager to{" "}
-        <span className="font-bold">learn</span> new technologies and expand my
-        skillset.
-      </p>
-      <p>
-        Seeking a <span className="font-medium">full-time</span> software
-        developer position to utilize my React expertise and collaborate with a
-        talented team. Passionate about staying ahead of the curve by learning
-        cutting-edge <span className="font-medium">technologies</span> like
-        <span className="italic">(mentioned below)</span> and contributing to
-        the company&apos;s success.
-      </p>
-    </motion.section>
+  className="my-28 max-w-[45rem] text-center leading-8 scroll-mt-28"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.175 }}
+  id="about"
+  ref={ref}
+>
+  <h2 className="text-3xl font-medium capitalize mb-8">About me</h2>
+
+  <p className="mb-3">
+    I’m a <span className="font-semibold">Versatile Full-Stack AI Engineer</span> with expertise in 
+    <span className="font-medium"> machine learning, backend APIs, frontend development,</span> and 
+    <span className="font-medium"> DevOps tools.</span> I build 
+    <span className="italic"> scalable AI-powered applications</span> by integrating deep learning models
+    into production systems.
+  </p>
+
+  <p>
+    I’m a fast learner with a strong 
+    <span className="font-medium"> problem-solving</span> mindset, passionate about building impactful AI-driven 
+    solutions and continuously improving my skills in{" "}
+    <span className="font-semibold">MLOps, cloud automation,</span> and emerging technologies.
+  </p>
+  
+</motion.section>
+
   );
 }
