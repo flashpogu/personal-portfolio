@@ -56,12 +56,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Rahul.</span> I&apos;m a
-        passionate{" "}
-        <span className="font-bold">frontend and full-stack developer</span>{" "}
-        with a flair for crafting captivating{" "}
-        <span className="font-bold">user experiences</span> and building{" "}
-        <span className="italic">web applications.</span>
+        <span className="font-bold">Hello, I&apos;m Rahul.</span> I build{" "}
+        <span className="font-bold">modern web apps</span> and{" "}
+        <span className="font-bold">AI-powered systems</span> using{" "}
+        <span className="italic">full-stack development</span> and{" "}
+        <span className="italic">deep learning</span> technologies.
+
       </motion.h1>
 
       <motion.div
@@ -83,7 +83,7 @@ export default function Intro() {
         </Link>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/resume_rahulkumar.pdf"
           download
         >
           Download CV{" "}
@@ -92,14 +92,14 @@ export default function Intro() {
         <div className="flex gap-2">
           <a
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://www.linkedin.com/in/rahul-kumar-b578272b7/"
+            href="https://www.linkedin.com/in/zeddxrahul/"
             target="_blank"
           >
             <BsLinkedin />
           </a>
           <a
             className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.3rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://github.com/rahulkumar2323"
+            href="https://github.com/flashpogu"
             target="_blank"
           >
             <FaGithubSquare />
