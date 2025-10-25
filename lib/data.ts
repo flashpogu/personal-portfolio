@@ -3,8 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pr1 from "@/public/pr1.png";
-import pr5 from "@/public/pr5.png";
-import pr4 from "@/public/pr4.png";
+import pr6 from "@/public/pr6.png";
 import pr2 from "@/public/pr2.png";
 
 export const links = [
@@ -55,19 +54,16 @@ export const projectsData = [
     link: "https://shortify-omega-mocha.vercel.app/",
   },
   {
-    title: "Figma Ecommerce",
+    title: "WhiteBoard",
     description:
-      "Built a responsive Ecom app with login, register and payment functionality",
+      "Enables real-time collaborative drawing with automatic shape recognition",
     tags: [
-      "React",
-      "Tailwind",
-      "React Query",
-      "Node",
-      "Express",
-      "MongoDB",
+      "Next.js (App Router)",
+      "Canvas API (HTML5)",
+      "Heuristic Shape Recognition",
     ],
-    imageUrl: pr4,
-    link: "https://figma-ecom-tau.vercel.app/",
+    imageUrl: pr6,
+    link: "https://whiteboard-qh4a.onrender.com",
   },
 ] as const;
 
